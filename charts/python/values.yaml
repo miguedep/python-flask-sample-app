@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: r.cfcr.io/kostis-codefresh/kostis-codefresh/python-flask-sampleapp
+  repository: 284347087604.dkr.ecr.eu-west-1.amazonaws.com/my-flask-app
   tag: master
 service:
   name: python
